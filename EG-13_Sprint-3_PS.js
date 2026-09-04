@@ -1,3 +1,4 @@
+// Solution 1: Contains Duplicate
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -6,9 +7,10 @@ var containsDuplicate = function(nums) {
 	return new Set(nums).size !== nums.length;
 };
 
+// Solution 2: Move Zeroes
 /**
  * @param {number[]} nums
- * @return {void} Do not return anything, modify nums in-place instead.
+ * @return {void} 
  */
 var moveZeroes = function(nums) {
 	var nextNonZero = 0;
@@ -26,6 +28,7 @@ var moveZeroes = function(nums) {
 	}
 };
 
+// Solution 3: Valid Anagram
 /**
  * @param {string} s
  * @param {string} t
@@ -52,6 +55,7 @@ var isAnagram = function(s, t) {
 	return true;
 };
 
+// Solution 4: Ransom Note
 /**
  * @param {string} ransomNote
  * @param {string} magazine
@@ -75,6 +79,7 @@ var canConstruct = function(ransomNote, magazine) {
 	return true;
 };
 
+// Solution 5: Majority Element
 /**
  * @param {number[]} nums
  * @return {number}
@@ -93,6 +98,7 @@ var majorityElement = function(nums) {
 	return candidate;
 };
 
+// Solution 6: 3Sum
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -134,6 +140,7 @@ var threeSum = function(nums) {
 	return triplets;
 };
 
+// Solution 7: Subarray Sum Equals K
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -153,6 +160,7 @@ var subarraySum = function(nums, k) {
 	return total;
 };
 
+// Solution 8: Top K Frequent Elements
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -171,6 +179,7 @@ var topKFrequent = function(nums, k) {
 		.map(function(entry) { return entry[0]; });
 };
 
+// Solution 9: Longest Consecutive Sequence
 /**
  * @param {number[]} nums
  * @return {number}
@@ -192,9 +201,10 @@ var longestConsecutive = function(nums) {
 	return longest;
 };
 
+// Solution 10: Sort Colors
 /**
  * @param {number[]} nums
- * @return {void} Do not return anything, modify nums in-place instead.
+ * @return {void} 
  */
 var sortColors = function(nums) {
 	var low = 0;
