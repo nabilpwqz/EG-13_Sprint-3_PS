@@ -1,4 +1,4 @@
-// Solution 1: Contains Duplicate
+// Solution 01: Contains Duplicate
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -7,7 +7,7 @@ var containsDuplicate = function(nums) {
 	return new Set(nums).size !== nums.length;
 };
 
-// Solution 2: Move Zeroes
+// Solution 02: Move Zeroes
 /**
  * @param {number[]} nums
  * @return {void} 
@@ -28,7 +28,7 @@ var moveZeroes = function(nums) {
 	}
 };
 
-// Solution 3: Valid Anagram
+// Solution 03: Valid Anagram
 /**
  * @param {string} s
  * @param {string} t
@@ -79,7 +79,7 @@ var canConstruct = function(ransomNote, magazine) {
 	return true;
 };
 
-// Solution 5: Majority Element
+// Solution 05: Majority Element
 /**
  * @param {number[]} nums
  * @return {number}
@@ -98,7 +98,7 @@ var majorityElement = function(nums) {
 	return candidate;
 };
 
-// Solution 6: 3Sum
+// Solution 06: 3Sum
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -140,7 +140,7 @@ var threeSum = function(nums) {
 	return triplets;
 };
 
-// Solution 7: Subarray Sum Equals K
+// Solution 07: Subarray Sum Equals K
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -160,7 +160,7 @@ var subarraySum = function(nums, k) {
 	return total;
 };
 
-// Solution 8: Top K Frequent Elements
+// Solution 08: Top K Frequent Elements
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -179,7 +179,7 @@ var topKFrequent = function(nums, k) {
 		.map(function(entry) { return entry[0]; });
 };
 
-// Solution 9: Longest Consecutive Sequence
+// Solution 09: Longest Consecutive Sequence
 /**
  * @param {number[]} nums
  * @return {number}
